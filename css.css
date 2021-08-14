@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+}
+
+.header {
+}
+
+.mayor {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(196, 221, 221);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 150px;
+  grid-column: auto 50px;
+  gap: 1em;
+  grid-auto-rows: auto;
+}
+
+.undergrid:hover {
+  border: black solid 3px;
+}
+
+.undergrid1 {
+  display: flex;
+  background-color: rgba(145, 139, 139, 0.541);
+  border-color: paleturquoise;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.undergrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: rgba(145, 139, 139, 0.541);
+  border: 3px solid orange;
+  border-radius: 10px;
+}
+
+.bodyy {
+  background: linear-gradient(#4f515565, #3439c47c);
+  display: flex;
+}
+
+.logo {
+  margin-left: 50px;
+  padding: 50px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  margin-left: 650px;
+  padding: 22px;
+  gap: 20px;
+  font-family: serif;
+}
+
+.hello {
+  text-decoration: none;
+  transition: 1s;
+}
+
+.hello:hover {
+  height: 10px;
+  width: 10px;
+  padding: 10px;
+  text-decoration: underline;
+  background-color: rgba(40, 41, 104, 0.068);
+}
+
+.focuss {
+  transition: 2s;
+}
+
+.focuss:focus {
+  padding: 10px;
+}
+
+.navegacion__menu1 {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.navegacion__menu2 {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.navegacion__menu3 {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.navegacion__menu4 {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.navegacion__menu5 {
+  padding: 7px;
+  font-size: 20px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(219, 219, 224);
+  padding: 20px;
+}
+
+.contenedor .imagen {
+  display: flex;
+  justify-content: left;
+}
+
+.indexx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: solid black 1px;
+  margin: 10px;
+  padding: 50px;
+}
+
+.futer {
+  background-color: rgba(54, 39, 39, 0.425);
+  background: linear-gradient(#4f515565, #3439c47c);
+}
+.futer .two {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.futer .two .one {
+  width: 50px;
+  padding: 25px;
+  transform: skew(-2deg, 5deg);
+}
+
+.leyenda {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.texto {
+  background-color: honeydew;
+  padding: 80px;
+  display: block;
+  text-align: center;
+}
+
+.texto .titular {
+  color: rgb(28, 97, 156);
+  display: block;
+  justify-content: center;
+  padding-top: 60px;
+  width: 300px;
+  margin-left: 800px;
+  background-color: rgba(15, 12, 12, 0.103);
+  border: solid black;
+  font-style: italic;
+}
+
+.sgr {
+  background-color: rgb(197, 191, 201);
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  border: solid;
+  font-family: sans-serif;
+  margin-left: 700px;
+}
+
+.benefi {
+  background-color: rgb(114, 128, 158);
+  justify-content: center;
+  display: flex;
+  padding: 90px;
+}
+
+.benefi .tabla {
+  color: rgb(93, 13, 197);
+}
+
+.boss {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  background-image: url(https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?cs=srgb&dl=pexels-pixabay-267507.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.maining {
+  border: solid black;
+  border-radius: 10px;
+  background-color: rgba(56, 32, 32, 0.288);
+  color: white;
+}
+
+.formulario {
+  padding: 50px;
+}
+
+.interior1 {
+  padding: 10px;
+}
+
+.interior2 {
+  padding: 10px;
+}
+
+.sexo {
+  padding: 20px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.mensaje {
+  padding: 5px;
+}
+
+.interior3 {
+  padding: 10px;
+}
+
+.botone1 {
+  padding: 10px;
+}
+
+.botone2 {
+  padding: 10px;
+}
+
+.divv .main {
+  display: flex;
+  border: blacks solid 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+  color: blue;
+  border: solid black 3px;
+  width: 500px;
+  margin-left: 700px;
+}
